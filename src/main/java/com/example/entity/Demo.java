@@ -12,7 +12,7 @@ public class Demo {
     private String email;
 
     @NotNull
-    @Size(min = 8,message = "密码最少8位数",groups = {InterfaceOne.class, InterfaceTwo.class})
+    @Size(min = 6,message = "密码最少8位数",groups = {InterfaceOne.class, InterfaceTwo.class})
     private String passWord;
 
     @NotNull(message = "电话不能为空",groups = InterfaceTwo.class)
