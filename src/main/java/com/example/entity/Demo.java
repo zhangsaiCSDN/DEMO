@@ -10,7 +10,7 @@ import javax.validation.constraints.Size;
 
 public class Demo {
     @NotNull(message = "email不能为空",groups = InterfaceOne.class)
-    @Size(min = 5,max = 15)
+    @Size(min = 4,max = 15)
     private String email;
 
     @NotNull
